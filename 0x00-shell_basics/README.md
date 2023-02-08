@@ -1,1 +1,1 @@
-This is a file that prints the absolute path name to the current working directory
+Contained in here are the shell basic commands
