@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# This script displays time in a 12-hour format for hours from 0 to 12 and minutes from 1 to 59
+
+hours=0
+minutes=1
+limit=70
+
+while [ $hours -le 12 ] && [ $limit -gt 0 ]
+do
+	echo "$hours"
+	((hours++))
+	((limit--))
+done
+
+while [ $minutes -le 59 ] && [ $limit -gt 0 ]
+do
+	echo "$minutes"
+	((minutes++))
+	((limit--))
+done
